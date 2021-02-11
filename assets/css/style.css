@@ -1,0 +1,109 @@
+/* Estilos index.html */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    padding: 1%;
+    background-color: rgb(62, 99, 99);
+    margin: 0;
+
+}
+
+.menu li{
+    display: inline;
+}
+
+.center{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center; 
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 20%;   
+}
+
+.container p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.botao-menu a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.botao-menu a:hover{
+    color: rgb(214, 212, 91);
+}
+
+
+.foto-perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.redes-sociais-img{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    padding: 30%;
+
+}
+
+.rodape-texto{
+   
+   
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    background-color: rgb(62, 99, 99);
+}
+
+
+
+
+
+/* Estilos contato.html */
+
+.contato{
+   display: flex;
+   justify-content: center;
+   padding: 3%;
+}
